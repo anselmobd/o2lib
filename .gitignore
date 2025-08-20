@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+
+# pytest
+.cache/
+.coverage
+htmlcov/
+*.cover
+
+# mypy
+.mypy_cache/
+
+# pyproject local dev artifacts
+*.log
+*.tmp
+
+# macOS
+.DS_Store
+
+# System junk
+Thumbs.db
