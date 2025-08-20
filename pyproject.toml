@@ -1,0 +1,7 @@
+[project]
+name = "o2lib"
+version = "0.1.0"
+description = "Lib utilitária com funções como validação de CEP"
+authors = [{name = "Anselmo Blanco Dominguez", email = "anselmo.blanco.dominguez@gmail.com"}]
+dependencies = []
+
