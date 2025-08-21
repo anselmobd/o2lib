@@ -20,9 +20,11 @@ venv/
 env/
 ENV/
 
-# PyCharm / VSCode
+# Arquivos temporários de editor - PyCharm / VSCode / ...
 .idea/
 .vscode/
+*.swp
+.DS_Store
 
 # pytest
 .cache/
