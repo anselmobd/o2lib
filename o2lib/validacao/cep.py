@@ -1,7 +1,7 @@
 import re
 
 
-def validar(valor: str) -> bool:
+def valido(valor: str) -> bool:
     """
     Valida se o valor representa um CEP brasileiro válido.
     Formatos aceitos:

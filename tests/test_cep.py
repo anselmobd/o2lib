@@ -1,11 +1,11 @@
-from o2lib.validacao.cep import validar
+from o2lib.validacao.cep import valido
 
 def test_cep_valido():
-    assert validar("12345678")
-    assert validar("12345-678")
-    assert validar("12.345-678")
+    assert valido("12345678")
+    assert valido("12345-678")
+    assert valido("12.345-678")
 
 def test_cep_invalido():
-    assert not validar("1234")
-    assert not validar("123456789")
-    assert not validar("abcde123")
+    assert not valido("1234")
+    assert not valido("123456789")
+    assert not valido("abcde123")
